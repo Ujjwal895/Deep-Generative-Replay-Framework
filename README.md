@@ -1,6 +1,6 @@
 # Deep-Generative-Replay-Framework
 
-This repository provides a comprehensive PyTorch-based framework for research in Continual Learning (CL). It focuses on **Deep Generative Replay (DGR)**, where a generative model is trained to produce samples from previously seen tasks to alleviate catastrophic forgetting. In addition to DGR, the framework includes implementations of numerous other prominent CL algorithms, enabling robust comparison and analysis across various learning scenarios.
+This repository provides a comprehensive PyTorch-based framework for research in Online Continual Learning (OCL). It focuses on **Deep Generative Replay (DGR)**, where a generative model is trained to produce samples from previously seen tasks to alleviate catastrophic forgetting. In addition to DGR, the framework includes implementations of numerous other prominent CL algorithms, enabling robust comparison and analysis across various learning scenarios.
 
 ## Features
 
