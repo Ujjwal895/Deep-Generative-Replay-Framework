@@ -1,0 +1,13 @@
+
+agent: DGR
+dataset: cifar100
+model: MLP
+batch_size: 64
+input_dim: 784
+latent_dim: 100
+num_classes: 10
+gen_lr: 0.0002
+replay_batch_size: 64
+optimizer: SGD
+learning_rate: 0.1
+epochs: 5
