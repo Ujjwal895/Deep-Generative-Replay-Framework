@@ -25,7 +25,7 @@ class AGEM(ContinualLearner):
         # set up model
         self.model = self.model.train()
 
-        # setup tracker
+        # tracker
         losses_batch = AverageMeter()
         acc_batch = AverageMeter()
 
