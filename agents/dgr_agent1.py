@@ -18,7 +18,6 @@ class DGRAgent1(ContinualLearner):
         self.params = params
         self.mem_iters = params.mem_iters
 
-
         self.generator = CVAE(params).to(self.device)
         self.gen_optimizer = torch.optim.Adam(self.generator.parameters(), lr=self.params.gen_lr)
         self.trained_gen = False
